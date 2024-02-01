@@ -1,11 +1,8 @@
 package params
 
 import (
-	"fmt"
-
 	"github.com/pkg/errors"
 	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
 )
 
 var configs *configset
@@ -71,14 +68,16 @@ func (r *configset) add(c *BeaconChainConfig) error {
 	}
 	c.InitializeForkSchedule()
 	for v := range c.ForkVersionSchedule {
-		if n, exists := r.versionToName[v]; exists {
-			// determine the fork name for the colliding version
-			cfv := ConfigForkVersions(c)
-			versionId := cfv[v]
-			msg := fmt.Sprintf("version %#x for fork %s in config %s conflicts with existing config named=%s",
-				v, version.String(versionId), name, n)
-			return errors.Wrap(errCollisionFork, msg)
-		}
+		// 수정 시작 지점(포크 버전 중복 방지 메소드)
+		// if n, exists := r.versionToName[v]; exists {
+		// 	// determine the fork name for the colliding version
+		// 	cfv := ConfigForkVersions(c)
+		// 	versionId := cfv[v]
+		// 	msg := fmt.Sprintf("version %#x for fork %s in config %s conflicts with existing config named=%s",
+		// 		v, version.String(versionId), name, n)
+		// 	return errors.Wrap(errCollisionFork, msg)
+		// }
+		// 수정 종료 지점
 		r.versionToName[v] = name
 	}
 	r.nameToConfig[name] = c
