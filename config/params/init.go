@@ -8,7 +8,10 @@ func init() {
 		E2ETestConfig(),
 		E2EMainnetTestConfig(),
 		InteropConfig(),
-		HoleskyConfig(),
+		// 수정 시작 지점
+		KPUniverseConfig(),
+		// HoleskyConfig(),
+		// 수정 종료 지점
 		SepoliaConfig(),
 	}
 	configs = newConfigset(defaults...)

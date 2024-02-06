@@ -24,5 +24,8 @@ func TestHoleskyConfigMatchesUpstreamYaml(t *testing.T) {
 	pcfg, err := params.UnmarshalConfigFile(configFP, nil)
 	require.NoError(t, err)
 	fields := fieldsFromYamls(t, append(presetFPs, configFP))
-	assertYamlFieldsMatch(t, "holesky", fields, pcfg, params.HoleskyConfig())
+	// 수정 시작 지점 (필수 아님)
+	assertYamlFieldsMatch(t, "holesky", fields, pcfg, params.KPUniverseConfig())
+	// assertYamlFieldsMatch(t, "holesky", fields, pcfg, params.HoleskyConfig())
+	// 수정 종료 지점
 }

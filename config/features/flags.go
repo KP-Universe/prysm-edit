@@ -19,11 +19,18 @@ var (
 		Name:  "sepolia",
 		Usage: "Runs Prysm configured for the Sepolia test network.",
 	}
-	// HoleskyTestnet flag for the multiclient Ethereum consensus testnet.
-	HoleskyTestnet = &cli.BoolFlag{
-		Name:  "holesky",
-		Usage: "Runs Prysm configured for the Holesky test network.",
+	// 수정 시작 지점
+	// KPUniverseTestnet flag for the multiclient Ethereum consensus testnet.
+	KPUniverseTestnet = &cli.BoolFlag{
+		Name:  "kpuniverse",
+		Usage: "Runs Prysm configured for the KPUniverse test network.",
 	}
+	// // HoleskyTestnet flag for the multiclient Ethereum consensus testnet.
+	// HoleskyTestnet = &cli.BoolFlag{
+	// 	Name:  "holesky",
+	// 	Usage: "Runs Prysm configured for the Holesky test network.",
+	// }
+	// 수정 시작 지점
 	// Mainnet flag for easier tooling, no-op
 	Mainnet = &cli.BoolFlag{
 		Value: true,
@@ -166,7 +173,10 @@ var devModeFlags = []cli.Flag{
 // ValidatorFlags contains a list of all the feature flags that apply to the validator client.
 var ValidatorFlags = append(deprecatedFlags, []cli.Flag{
 	writeWalletPasswordOnWebOnboarding,
-	HoleskyTestnet,
+	// 수정 시작 지점
+	KPUniverseTestnet,
+	// HoleskyTestnet,
+	// 수정 종료 지점
 	PraterTestnet,
 	SepoliaTestnet,
 	Mainnet,
@@ -188,7 +198,10 @@ var BeaconChainFlags = append(deprecatedBeaconFlags, append(deprecatedFlags, []c
 	enableExperimentalState,
 	writeSSZStateTransitionsFlag,
 	disableGRPCConnectionLogging,
-	HoleskyTestnet,
+	// 수정 시작 지점
+	KPUniverseTestnet,
+	// HoleskyTestnet,
+	// 수정 종료 지점
 	PraterTestnet,
 	SepoliaTestnet,
 	Mainnet,
@@ -221,5 +234,8 @@ var NetworkFlags = []cli.Flag{
 	Mainnet,
 	PraterTestnet,
 	SepoliaTestnet,
-	HoleskyTestnet,
+	// 수정 시작 지점
+	KPUniverseTestnet,
+	// HoleskyTestnet,
+	// 수정 종료 지점
 }
