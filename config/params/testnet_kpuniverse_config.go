@@ -17,7 +17,7 @@ func UseKPUniverseNetworkConfig() {
 // KPUniverseConfig defines the config for the KPUniverse beacon chain testnet.
 func KPUniverseConfig() *BeaconChainConfig {
 	cfg := MainnetConfig().Copy()
-	cfg.MinGenesisTime = 1706689319 // 갱신 필요
+	cfg.MinGenesisTime = 1707288397 // 갱신 필요
 	cfg.GenesisDelay = 0
 	cfg.ConfigName = KPUniverseName
 	cfg.GenesisForkVersion = []byte{0x20, 0x00, 0x00, 0x89} // []byte{0x01, 0x01, 0x70, 0x00}
