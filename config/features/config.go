@@ -155,11 +155,11 @@ func configureTestnet(ctx *cli.Context) error {
 		params.UseKPUniverseNetworkConfig()
 	// 수정 종료 지점
 	} else {
-		fmt.Println("set KPUniverse network") // 수정 지점
+		fmt.Println("set Ethereum network") // 수정 지점
 		if ctx.IsSet(cmd.ChainConfigFileFlag.Name) {
-			log.Warn("Running on custom KPUniverse network specified in a chain configuration yaml file")
+			log.Warn("Running on custom Ethereum network specified in a chain configuration yaml file")
 		} else {
-			log.Warn("Running on KPUniverse Mainnet")
+			log.Warn("Running on Ethereum Mainnet")
 		}
 		if err := params.SetActive(params.MainnetConfig().Copy()); err != nil {
 			return err

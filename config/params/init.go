@@ -12,7 +12,7 @@ func init() {
 		InteropConfig(),
 		HoleskyConfig(),
 		// 수정 시작 지점
-		// KPUniverseConfig(),
+		KPUniverseConfig(),
 		// 수정 종료 지점
 		SepoliaConfig(),
 	}

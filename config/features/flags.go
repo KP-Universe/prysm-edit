@@ -35,7 +35,7 @@ var (
 	Mainnet = &cli.BoolFlag{
 		Value: true,
 		Name:  "mainnet",
-		Usage: "Runs on KPUniverse main network. This is the default and can be omitted.", // 수정 지점
+		Usage: "Runs on Ethereum main network. This is the default and can be omitted.",
 	}
 	devModeFlag = &cli.BoolFlag{
 		Name:  "dev",
@@ -174,7 +174,7 @@ var devModeFlags = []cli.Flag{
 var ValidatorFlags = append(deprecatedFlags, []cli.Flag{
 	writeWalletPasswordOnWebOnboarding,
 	// 수정 시작 지점
-	// KPUniverseTestnet,
+	KPUniverseTestnet,
 	// 수정 종료 지점
 	HoleskyTestnet,
 	PraterTestnet,
@@ -199,7 +199,7 @@ var BeaconChainFlags = append(deprecatedBeaconFlags, append(deprecatedFlags, []c
 	writeSSZStateTransitionsFlag,
 	disableGRPCConnectionLogging,
 	// 수정 시작 지점
-	// KPUniverseTestnet,
+	KPUniverseTestnet,
 	// 수정 종료 지점
 	HoleskyTestnet,
 	PraterTestnet,
@@ -236,6 +236,6 @@ var NetworkFlags = []cli.Flag{
 	SepoliaTestnet,
 	HoleskyTestnet,
 	// 수정 시작 지점
-	// KPUniverseTestnet,
+	KPUniverseTestnet,
 	// 수정 종료 지점
 }
