@@ -11,8 +11,6 @@ const (
 	PraterName          = "prater"
 	GoerliName          = "goerli"
 	SepoliaName         = "sepolia"
-	// 수정 시작 지점
-	KPUniverseName = "kpuniverse"
-	// HoleskyName = "holesky"
-	// 수정 종료 지점
+	HoleskyName         = "holesky"
+	KPUniverseName      = "kpuniverse" // 수정 지점
 )

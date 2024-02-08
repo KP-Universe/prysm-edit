@@ -33,9 +33,9 @@ var Commands = &cli.Command{
 				features.Mainnet,
 				features.PraterTestnet,
 				features.SepoliaTestnet,
+				features.HoleskyTestnet,
 				// 수정 시작 지점
 				features.KPUniverseTestnet,
-				// features.HoleskyTestnet,
 				// 수정 종료 지점
 				cmd.AcceptTosFlag,
 			}),
@@ -68,9 +68,9 @@ var Commands = &cli.Command{
 				features.Mainnet,
 				features.PraterTestnet,
 				features.SepoliaTestnet,
+				features.HoleskyTestnet,
 				// 수정 시작 지점
 				features.KPUniverseTestnet,
-				// features.HoleskyTestnet,
 				// 수정 종료 지점
 				cmd.AcceptTosFlag,
 			}),

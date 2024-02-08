@@ -183,15 +183,15 @@ func main() {
 						if err := params.SetActive(params.SepoliaConfig()); err != nil {
 							log.Fatal(err)
 						}
+					case params.HoleskyName:
+						if err := params.SetActive(params.HoleskyConfig()); err != nil {
+							log.Fatal(err)
+						}
 					// 수정 시작 지점
 					case params.KPUniverseName:
 						if err := params.SetActive(params.KPUniverseConfig()); err != nil {
 							log.Fatal(err)
 						}
-					// case params.HoleskyName:
-					// 	if err := params.SetActive(params.HoleskyConfig()); err != nil {
-					// 		log.Fatal(err)
-					// 	}
 					// 수정 종료 지점
 					default:
 						log.Fatalf("Unknown network provided: %s", network)

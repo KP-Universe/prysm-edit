@@ -131,6 +131,13 @@ func configureTestnet(ctx *cli.Context) error {
 		}
 		applySepoliaFeatureFlags(ctx)
 		params.UseSepoliaNetworkConfig()
+	} else if ctx.Bool(HoleskyTestnet.Name) {
+		log.Warn("Running on the Holesky Beacon Chain Testnet")
+		if err := params.SetActive(params.HoleskyConfig().Copy()); err != nil {
+			return err
+		}
+		applyHoleskyFeatureFlags(ctx)
+		params.UseHoleskyNetworkConfig()
 	} else if ctx.Bool(KPUniverseTestnet.Name) { // 수정 시작 지점(else를 띄울 수 없어 이렇게 표시)
 		log.Warn("Running on the KPUniverse Beacon Chain Testnet")
 		if err := params.SetActive(params.KPUniverseConfig().Copy()); err != nil {
@@ -138,14 +145,6 @@ func configureTestnet(ctx *cli.Context) error {
 		}
 		applyKPUniverseFeatureFlags(ctx)
 		params.UseKPUniverseNetworkConfig()
-	// else if ctx.Bool(HoleskyTestnet.Name) {
-		// log.Warn("Running on the Holesky Beacon Chain Testnet")
-		// if err := params.SetActive(params.HoleskyConfig().Copy()); err != nil {
-		// 	return err
-		// 	}
-		// 	applyHoleskyFeatureFlags(ctx)
-		// 	params.UseHoleskyNetworkConfig()
-	// }
 	// 수정 종료 지점
 	} else {
 		if ctx.IsSet(cmd.ChainConfigFileFlag.Name) {
@@ -168,13 +167,14 @@ func applyPraterFeatureFlags(ctx *cli.Context) {
 func applySepoliaFeatureFlags(ctx *cli.Context) {
 }
 
+// Insert feature flags within the function to be enabled for Holesky testnet.
+func applyHoleskyFeatureFlags(ctx *cli.Context) {
+}
+
 // 수정 시작 지점 (문제 예상)
 // Insert feature flags within the function to be enabled for KPUniverse testnet.
 func applyKPUniverseFeatureFlags(ctx *cli.Context) {
 }
-// // Insert feature flags within the function to be enabled for Holesky testnet.
-// func applyHoleskyFeatureFlags(ctx *cli.Context) {
-// }
 // 수정 종료 지점
 
 // ConfigureBeaconChain sets the global config based
