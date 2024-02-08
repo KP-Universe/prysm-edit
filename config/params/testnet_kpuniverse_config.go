@@ -25,13 +25,13 @@ func KPUniverseConfig() *BeaconChainConfig {
 	cfg.DepositChainID = 142536
 	cfg.DepositNetworkID = 142536
 	cfg.AltairForkEpoch = 0
-	cfg.AltairForkVersion = []byte{0x20, 0x00, 0x00, 0x89}
+	cfg.AltairForkVersion = []byte{0x20, 0x00, 0x00, 0x90}
 	cfg.BellatrixForkEpoch = 0
-	cfg.BellatrixForkVersion = []byte{0x20, 0x00, 0x00, 0x89}
+	cfg.BellatrixForkVersion = []byte{0x20, 0x00, 0x00, 0x91}
 	cfg.CapellaForkEpoch = 0
-	cfg.CapellaForkVersion = []byte{0x20, 0x00, 0x00, 0x89}
+	cfg.CapellaForkVersion = []byte{0x20, 0x00, 0x00, 0x92}
 	cfg.DenebForkEpoch = 100000000000
-	cfg.DenebForkVersion = []byte{0x20, 0x00, 0x00, 0x89}
+	cfg.DenebForkVersion = []byte{0x20, 0x00, 0x00, 0x93}
 	cfg.TerminalTotalDifficulty = "0"
 	cfg.DepositContractAddress = "0x4242424242424242424242424242424242424242"
 	cfg.EjectionBalance = 28000000000 // 검증자 풀에서 추방되기위한 잔액 28이더

@@ -20,6 +20,7 @@ The process for implementing new features using this package is as follows:
 package features
 
 import (
+	"fmt"
 	"sync"
 	"time"
 
@@ -117,7 +118,11 @@ func InitWithReset(c *Flags) func() {
 
 // configureTestnet sets the config according to specified testnet flag
 func configureTestnet(ctx *cli.Context) error {
+
+	fmt.Println("select Active network")
+
 	if ctx.Bool(PraterTestnet.Name) {
+		fmt.Println("set Prater network") // 수정 지점
 		log.Warn("Running on the Prater Testnet")
 		if err := params.SetActive(params.PraterConfig().Copy()); err != nil {
 			return err
@@ -125,6 +130,7 @@ func configureTestnet(ctx *cli.Context) error {
 		applyPraterFeatureFlags(ctx)
 		params.UsePraterNetworkConfig()
 	} else if ctx.Bool(SepoliaTestnet.Name) {
+		fmt.Println("set Sepolia network") // 수정 지점
 		log.Warn("Running on the Sepolia Beacon Chain Testnet")
 		if err := params.SetActive(params.SepoliaConfig().Copy()); err != nil {
 			return err
@@ -132,6 +138,7 @@ func configureTestnet(ctx *cli.Context) error {
 		applySepoliaFeatureFlags(ctx)
 		params.UseSepoliaNetworkConfig()
 	} else if ctx.Bool(HoleskyTestnet.Name) {
+		fmt.Println("set Holesky network") // 수정 지점
 		log.Warn("Running on the Holesky Beacon Chain Testnet")
 		if err := params.SetActive(params.HoleskyConfig().Copy()); err != nil {
 			return err
@@ -139,6 +146,7 @@ func configureTestnet(ctx *cli.Context) error {
 		applyHoleskyFeatureFlags(ctx)
 		params.UseHoleskyNetworkConfig()
 	} else if ctx.Bool(KPUniverseTestnet.Name) { // 수정 시작 지점(else를 띄울 수 없어 이렇게 표시)
+		fmt.Println("set KPUniverse network")
 		log.Warn("Running on the KPUniverse Beacon Chain Testnet")
 		if err := params.SetActive(params.KPUniverseConfig().Copy()); err != nil {
 			return err
@@ -147,6 +155,7 @@ func configureTestnet(ctx *cli.Context) error {
 		params.UseKPUniverseNetworkConfig()
 	// 수정 종료 지점
 	} else {
+		fmt.Println("set Ethereum network") // 수정 지점
 		if ctx.IsSet(cmd.ChainConfigFileFlag.Name) {
 			log.Warn("Running on custom Ethereum network specified in a chain configuration yaml file")
 		} else {
