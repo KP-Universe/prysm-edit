@@ -1,7 +1,5 @@
 package params
 
-import "fmt"
-
 func init() {
 	defaults := []*BeaconChainConfig{
 		MainnetConfig(),
@@ -17,7 +15,6 @@ func init() {
 		SepoliaConfig(),
 	}
 	configs = newConfigset(defaults...)
-	fmt.Println("init() : change Active network(Mainnet)") // 수정 지점
 	// ensure that main net is always present and active by default
 	if err := SetActive(MainnetConfig()); err != nil {
 		panic(err)

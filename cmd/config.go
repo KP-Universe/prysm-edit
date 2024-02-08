@@ -1,8 +1,6 @@
 package cmd
 
 import (
-	"fmt"
-
 	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
 	"github.com/prysmaticlabs/prysm/v4/config/params"
 	"github.com/urfave/cli/v2"
@@ -68,7 +66,6 @@ func ConfigureValidator(ctx *cli.Context) error {
 }
 
 func newConfig(ctx *cli.Context) (*Flags, error) {
-	fmt.Println("newConfig(ctx *cli.Context) : change Active network") // 수정 지점
 	cfg := Get()
 	if ctx.Bool(MinimalConfigFlag.Name) {
 		log.Warn("Using minimal config")

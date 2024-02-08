@@ -32,7 +32,6 @@ func configureChainConfig(cliCtx *cli.Context) error {
 }
 
 func configureHistoricalSlasher(cliCtx *cli.Context) error {
-	fmt.Println("configureHistoricalSlasher(cliCtx *cli.Context) : change Active network") // 수정 지점
 	if cliCtx.Bool(flags.HistoricalSlasherNode.Name) {
 		c := params.BeaconConfig().Copy()
 		// Save a state every 4 epochs.
@@ -54,7 +53,6 @@ func configureHistoricalSlasher(cliCtx *cli.Context) error {
 }
 
 func configureBuilderCircuitBreaker(cliCtx *cli.Context) error {
-	fmt.Println("configureBuilderCircuitBreaker(cliCtx *cli.Context) : change Active network") // 수정 지점
 	if cliCtx.IsSet(flags.MaxBuilderConsecutiveMissedSlots.Name) {
 		c := params.BeaconConfig().Copy()
 		c.MaxBuilderConsecutiveMissedSlots = primitives.Slot(cliCtx.Int(flags.MaxBuilderConsecutiveMissedSlots.Name))
@@ -80,7 +78,6 @@ func configureBuilderCircuitBreaker(cliCtx *cli.Context) error {
 }
 
 func configureSlotsPerArchivedPoint(cliCtx *cli.Context) error {
-	fmt.Println("configureSlotsPerArchivedPoint(cliCtx *cli.Context) : change Active network") // 수정 지점
 	if cliCtx.IsSet(flags.SlotsPerArchivedPoint.Name) {
 		c := params.BeaconConfig().Copy()
 		c.SlotsPerArchivedPoint = primitives.Slot(cliCtx.Int(flags.SlotsPerArchivedPoint.Name))
@@ -92,7 +89,6 @@ func configureSlotsPerArchivedPoint(cliCtx *cli.Context) error {
 }
 
 func configureEth1Config(cliCtx *cli.Context) error {
-	fmt.Println("configureEth1Config(cliCtx *cli.Context) : change Active network") // 수정 지점
 	c := params.BeaconConfig().Copy()
 	if cliCtx.IsSet(flags.ChainID.Name) {
 		c.DepositChainID = cliCtx.Uint64(flags.ChainID.Name)
@@ -135,7 +131,6 @@ func configureNetwork(cliCtx *cli.Context) {
 }
 
 func configureInteropConfig(cliCtx *cli.Context) error {
-	fmt.Println("configureInteropConfig(cliCtx *cli.Context) : change Active network") // 수정 지점
 	// an explicit chain config was specified, don't mess with it
 	if cliCtx.IsSet(cmd.ChainConfigFileFlag.Name) {
 		return nil
@@ -153,7 +148,6 @@ func configureInteropConfig(cliCtx *cli.Context) error {
 }
 
 func configureExecutionSetting(cliCtx *cli.Context) error {
-	fmt.Println("configureExecutionSetting(cliCtx *cli.Context) : change Active network") // 수정 지점
 	if cliCtx.IsSet(flags.TerminalTotalDifficultyOverride.Name) {
 		c := params.BeaconConfig()
 		c.TerminalTotalDifficulty = cliCtx.String(flags.TerminalTotalDifficultyOverride.Name)
