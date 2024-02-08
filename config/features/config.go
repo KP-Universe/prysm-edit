@@ -119,7 +119,7 @@ func InitWithReset(c *Flags) func() {
 // configureTestnet sets the config according to specified testnet flag
 func configureTestnet(ctx *cli.Context) error {
 
-	fmt.Println("select Active network")
+	fmt.Println("configureTestnet : select Active network") // 수정 지점
 
 	if ctx.Bool(PraterTestnet.Name) {
 		fmt.Println("set Prater network") // 수정 지점

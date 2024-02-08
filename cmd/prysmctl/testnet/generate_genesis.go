@@ -211,6 +211,7 @@ func cliActionGenerateGenesisState(cliCtx *cli.Context) error {
 }
 
 func setGlobalParams() error {
+	fmt.Println("setGlobalParams() : change Active network") // 수정 지점
 	chainConfigFile := generateGenesisStateFlags.ChainConfigFile
 	if chainConfigFile != "" {
 		log.Infof("Specified a chain config file: %s", chainConfigFile)

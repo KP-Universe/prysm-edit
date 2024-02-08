@@ -79,6 +79,7 @@ func UnmarshalConfigFile(path string, conf *BeaconChainConfig) (*BeaconChainConf
 // LoadChainConfigFile load, convert hex values into valid param yaml format,
 // unmarshal , and apply beacon chain config file.
 func LoadChainConfigFile(path string, conf *BeaconChainConfig) error {
+	fmt.Println("LoadChainConfigFile(path string, conf *BeaconChainConfig) : change Active network") // 수정 지점
 	c, err := UnmarshalConfigFile(path, conf)
 	if err != nil {
 		return err

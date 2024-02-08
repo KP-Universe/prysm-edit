@@ -169,26 +169,32 @@ func main() {
 				},
 			},
 			Action: func(c *cli.Context) error {
+				fmt.Println("Action: func(c *cli.Context) : select Active network") // 수정 지점
 				if network != "" {
 					switch network {
 					case params.PraterName:
+						fmt.Println("set Prater network") // 수정 지점
 						if err := params.SetActive(params.PraterConfig()); err != nil {
 							log.Fatal(err)
 						}
 					case params.GoerliName:
+						fmt.Println("set Goerli network") // 수정 지점
 						if err := params.SetActive(params.PraterConfig()); err != nil {
 							log.Fatal(err)
 						}
 					case params.SepoliaName:
+						fmt.Println("set Sepolia network") // 수정 지점
 						if err := params.SetActive(params.SepoliaConfig()); err != nil {
 							log.Fatal(err)
 						}
 					case params.HoleskyName:
+						fmt.Println("set Holesky network") // 수정 지점
 						if err := params.SetActive(params.HoleskyConfig()); err != nil {
 							log.Fatal(err)
 						}
 					// 수정 시작 지점
 					case params.KPUniverseName:
+						fmt.Println("set KPUniverse network") // 수정 지점
 						if err := params.SetActive(params.KPUniverseConfig()); err != nil {
 							log.Fatal(err)
 						}
