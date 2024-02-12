@@ -4,17 +4,17 @@ import (
 	"context"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/altair"
-	b "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	state_native "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stateutil"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/altair"
+	b "github.com/KP-Universe/prysm/v4/beacon-chain/core/blocks"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/helpers"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	state_native "github.com/KP-Universe/prysm/v4/beacon-chain/state/state-native"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state/stateutil"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // GenesisBeaconStateBellatrix gets called when MinGenesisActiveValidatorCount count of

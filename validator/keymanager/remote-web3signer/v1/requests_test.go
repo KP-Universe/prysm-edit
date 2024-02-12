@@ -4,12 +4,12 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	validatorpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	v1 "github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer/v1"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer/v1/mock"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	validatorpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1/validator-client"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	v1 "github.com/KP-Universe/prysm/v4/validator/keymanager/remote-web3signer/v1"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager/remote-web3signer/v1/mock"
 )
 
 func TestGetAggregateAndProofSignRequest(t *testing.T) {

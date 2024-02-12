@@ -3,11 +3,11 @@ package validator
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/math"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/math"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/runtime/version"
 	"google.golang.org/protobuf/proto"
 )
 

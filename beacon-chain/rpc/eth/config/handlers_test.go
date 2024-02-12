@@ -9,15 +9,15 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/KP-Universe/go-kpu/common"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/network/forks"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	"github.com/KP-Universe/prysm/v4/network/forks"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func TestGetDepositContract(t *testing.T) {

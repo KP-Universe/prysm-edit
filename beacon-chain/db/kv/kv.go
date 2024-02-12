@@ -14,11 +14,11 @@ import (
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
 	prombolt "github.com/prysmaticlabs/prombbolt"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/iface"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/db/iface"
+	"github.com/KP-Universe/prysm/v4/config/features"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	"github.com/KP-Universe/prysm/v4/io/file"
 	bolt "go.etcd.io/bbolt"
 )
 

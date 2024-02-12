@@ -4,12 +4,12 @@ import (
 	"reflect"
 	"testing"
 
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	"github.com/KP-Universe/prysm/v4/encoding/ssz"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func TestUint64Root(t *testing.T) {

@@ -2,8 +2,8 @@ package migration
 
 import (
 	"github.com/pkg/errors"
-	ethpbv2 "github.com/prysmaticlabs/prysm/v4/proto/eth/v2"
-	ethpbalpha "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	ethpbv2 "github.com/KP-Universe/prysm/v4/proto/eth/v2"
+	ethpbalpha "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 	"google.golang.org/protobuf/proto"
 )
 

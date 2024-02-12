@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/ghodss/yaml"
-	kzgPrysm "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/kzg"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/spectest/utils"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	kzgPrysm "github.com/KP-Universe/prysm/v4/beacon-chain/blockchain/kzg"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/testing/spectest/utils"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 )
 
 type KZGTestDataInput struct {

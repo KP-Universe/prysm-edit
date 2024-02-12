@@ -2,11 +2,11 @@ package sync
 
 import (
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/network/forks"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/network/forks"
+	"github.com/KP-Universe/prysm/v4/time/slots"
 )
 
 // Is a background routine that observes for new incoming forks. Depending on the epoch

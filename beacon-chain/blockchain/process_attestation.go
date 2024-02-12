@@ -5,11 +5,11 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/attestation"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/helpers"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1/attestation"
+	"github.com/KP-Universe/prysm/v4/time/slots"
 	"go.opencensus.io/trace"
 )
 

@@ -20,11 +20,11 @@ import (
 	"os"
 	"path"
 
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/derived"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/local"
+	"github.com/KP-Universe/prysm/v4/io/file"
+	"github.com/KP-Universe/prysm/v4/validator/accounts/wallet"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager/derived"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager/local"
 	"github.com/tyler-smith/go-bip39"
 	util "github.com/wealdtech/go-eth2-util"
 )

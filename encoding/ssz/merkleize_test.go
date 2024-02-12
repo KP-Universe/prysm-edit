@@ -4,11 +4,11 @@ import (
 	"testing"
 
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/crypto/hash"
+	"github.com/KP-Universe/prysm/v4/encoding/ssz"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func TestGetDepth(t *testing.T) {

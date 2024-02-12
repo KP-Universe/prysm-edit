@@ -5,10 +5,10 @@ import (
 	"io"
 	"testing"
 
-	testDB "github.com/prysmaticlabs/prysm/v4/beacon-chain/db/testing"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	testDB "github.com/KP-Universe/prysm/v4/beacon-chain/db/testing"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 	"github.com/sirupsen/logrus"
 )
 

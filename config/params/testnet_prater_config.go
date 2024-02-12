@@ -1,7 +1,7 @@
 package params
 
 import (
-	eth1Params "github.com/ethereum/go-ethereum/params"
+	eth1Params "github.com/KP-Universe/go-kpu/params"
 )
 
 // UsePraterNetworkConfig uses the Prater specific

@@ -6,10 +6,10 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
+	"github.com/KP-Universe/prysm/v4/cmd"
+	"github.com/KP-Universe/prysm/v4/io/file"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 	"github.com/urfave/cli/v2"
 )
 

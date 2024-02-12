@@ -6,12 +6,12 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	doublylinkedlist "github.com/prysmaticlabs/prysm/v4/container/doubly-linked-list"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/blocks"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	doublylinkedlist "github.com/KP-Universe/prysm/v4/container/doubly-linked-list"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 )
 

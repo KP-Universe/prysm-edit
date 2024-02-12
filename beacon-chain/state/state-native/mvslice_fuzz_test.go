@@ -3,10 +3,10 @@ package state_native
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/config/features"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func FuzzMultiValueBalances(f *testing.F) {

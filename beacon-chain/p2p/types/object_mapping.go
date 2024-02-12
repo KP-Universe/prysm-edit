@@ -1,14 +1,14 @@
 package types
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/wrapper"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/metadata"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/consensus-types/wrapper"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1/metadata"
 )
 
 func init() {

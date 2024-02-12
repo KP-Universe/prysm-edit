@@ -7,10 +7,10 @@ import (
 
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p/peers"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/startup"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
 	log "github.com/sirupsen/logrus"
 )
 

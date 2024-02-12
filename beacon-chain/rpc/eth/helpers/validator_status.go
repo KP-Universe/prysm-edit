@@ -2,10 +2,10 @@ package helpers
 
 import (
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/validator"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/consensus-types/validator"
 )
 
 // ValidatorStatus returns a validator's status at the given epoch.

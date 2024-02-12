@@ -6,13 +6,13 @@ import (
 	"fmt"
 	"net/http"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
 	"github.com/gorilla/mux"
-	"github.com/prysmaticlabs/prysm/v4/api"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/helpers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
-	"github.com/prysmaticlabs/prysm/v4/network/httputil"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/KP-Universe/prysm/v4/api"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/helpers"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/shared"
+	"github.com/KP-Universe/prysm/v4/network/httputil"
+	"github.com/KP-Universe/prysm/v4/runtime/version"
 	"go.opencensus.io/trace"
 )
 

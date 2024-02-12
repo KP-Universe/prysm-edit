@@ -1,6 +1,6 @@
 package beacon
 
-import "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
+import "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/shared"
 
 type GetWeakSubjectivityResponse struct {
 	Data *WeakSubjectivityData `json:"data"`

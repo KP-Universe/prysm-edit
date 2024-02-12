@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
 )
 
 func TestHistoricalRoots_Casting(t *testing.T) {

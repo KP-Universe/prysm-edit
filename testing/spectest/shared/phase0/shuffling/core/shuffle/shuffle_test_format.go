@@ -1,6 +1,6 @@
 package shuffle
 
-import "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+import "github.com/KP-Universe/prysm/v4/consensus-types/primitives"
 
 // TestCase --
 type TestCase struct {

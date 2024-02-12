@@ -12,7 +12,7 @@ go_library(
         "structs_block.go",
         "structs_state.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared",
+    importpath = "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/shared",
     visibility = ["//visibility:public"],
     deps = [
         "//api/server:go_default_library",

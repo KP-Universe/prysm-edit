@@ -8,8 +8,8 @@ import (
 	"net/http"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
+	"github.com/KP-Universe/prysm/v4/api"
+	"github.com/KP-Universe/prysm/v4/testing/endtoend/params"
 	log "github.com/sirupsen/logrus"
 )
 

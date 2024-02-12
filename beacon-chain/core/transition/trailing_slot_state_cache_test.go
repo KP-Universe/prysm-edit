@@ -4,11 +4,11 @@ import (
 	"context"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/transition"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/transition"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 )
 
 func TestTrailingSlotState_RoundTrip(t *testing.T) {

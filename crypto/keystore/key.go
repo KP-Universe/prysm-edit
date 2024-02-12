@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 
 	"github.com/pborman/uuid"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
+	"github.com/KP-Universe/prysm/v4/crypto/bls"
+	"github.com/KP-Universe/prysm/v4/io/file"
 )
 
 const (

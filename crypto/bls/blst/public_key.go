@@ -6,10 +6,10 @@ import (
 	"fmt"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/cache/nonblocking"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
+	"github.com/KP-Universe/prysm/v4/cache/nonblocking"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/crypto/bls/common"
 )
 
 var maxKeys = 2_000_000

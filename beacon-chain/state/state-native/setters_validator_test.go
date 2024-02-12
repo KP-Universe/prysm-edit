@@ -3,9 +3,9 @@ package state_native_test
 import (
 	"testing"
 
-	state_native "github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	state_native "github.com/KP-Universe/prysm/v4/beacon-chain/state/state-native"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func BenchmarkAppendBalance(b *testing.B) {

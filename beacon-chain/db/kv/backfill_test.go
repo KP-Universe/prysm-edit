@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/proto/dbval"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	"github.com/KP-Universe/prysm/v4/proto/dbval"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 	"google.golang.org/protobuf/proto"
 )
 

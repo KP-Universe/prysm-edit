@@ -5,16 +5,16 @@ import (
 	"math/big"
 	"testing"
 
-	gethtypes "github.com/ethereum/go-ethereum/core/types"
+	gethtypes "github.com/KP-Universe/go-kpu/core/types"
 	"github.com/holiman/uint256"
-	mocks "github.com/prysmaticlabs/prysm/v4/beacon-chain/execution/testing"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	mocks "github.com/KP-Universe/prysm/v4/beacon-chain/execution/testing"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 )
 
 func Test_validTerminalPowBlock(t *testing.T) {

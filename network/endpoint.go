@@ -9,8 +9,8 @@ import (
 	"net/url"
 	"strings"
 
-	gethRPC "github.com/ethereum/go-ethereum/rpc"
-	"github.com/prysmaticlabs/prysm/v4/network/authorization"
+	gethRPC "github.com/KP-Universe/go-kpu/rpc"
+	"github.com/KP-Universe/prysm/v4/network/authorization"
 	log "github.com/sirupsen/logrus"
 )
 

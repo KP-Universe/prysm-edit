@@ -8,9 +8,9 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/cache"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 	"github.com/sirupsen/logrus"
 	"github.com/wealdtech/go-bytesutil"
 	"go.opencensus.io/trace"

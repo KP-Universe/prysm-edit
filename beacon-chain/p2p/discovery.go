@@ -6,19 +6,19 @@ import (
 	"net"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/KP-Universe/go-kpu/p2p/discover"
+	"github.com/KP-Universe/go-kpu/p2p/enode"
+	"github.com/KP-Universe/go-kpu/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	ma "github.com/multiformats/go-multiaddr"
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/go-bitfield"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v4/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/cache"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	ecdsaprysm "github.com/KP-Universe/prysm/v4/crypto/ecdsa"
+	"github.com/KP-Universe/prysm/v4/runtime/version"
+	"github.com/KP-Universe/prysm/v4/time/slots"
 )
 
 // Listener defines the discovery V5 network interface that is used

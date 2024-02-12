@@ -4,7 +4,7 @@ import (
 	"context"
 	"errors"
 
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/KP-Universe/go-kpu/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/host"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/multiformats/go-multiaddr"

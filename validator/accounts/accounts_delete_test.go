@@ -5,12 +5,12 @@ import (
 	"context"
 	"testing"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager/local"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
+	"github.com/KP-Universe/prysm/v4/crypto/bls"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager/local"
 	logTest "github.com/sirupsen/logrus/hooks/test"
 )
 

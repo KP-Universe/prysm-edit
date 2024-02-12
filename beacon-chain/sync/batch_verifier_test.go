@@ -5,10 +5,10 @@ import (
 	"testing"
 
 	pubsub "github.com/libp2p/go-libp2p-pubsub"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/signing"
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/signing"
+	"github.com/KP-Universe/prysm/v4/crypto/bls"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 )
 
 func TestValidateWithBatchVerifier(t *testing.T) {

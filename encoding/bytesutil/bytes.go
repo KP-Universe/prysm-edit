@@ -4,7 +4,7 @@ package bytesutil
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
 )
 
 // ToBytes48Array is a convenience method for converting an array of

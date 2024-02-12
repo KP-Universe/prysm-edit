@@ -1,7 +1,7 @@
 package validator
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
 )
 
 type Status int8

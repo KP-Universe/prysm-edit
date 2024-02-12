@@ -4,9 +4,9 @@ import (
 	"io"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/wallet"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
+	"github.com/KP-Universe/prysm/v4/crypto/bls"
+	"github.com/KP-Universe/prysm/v4/validator/accounts/wallet"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager"
 	"google.golang.org/grpc"
 )
 

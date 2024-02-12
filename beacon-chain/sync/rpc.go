@@ -11,11 +11,11 @@ import (
 	"github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/protocol"
 	ssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	p2ptypes "github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/types"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/monitoring/tracing"
-	"github.com/prysmaticlabs/prysm/v4/time/slots"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p"
+	p2ptypes "github.com/KP-Universe/prysm/v4/beacon-chain/p2p/types"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/monitoring/tracing"
+	"github.com/KP-Universe/prysm/v4/time/slots"
 	"go.opencensus.io/trace"
 )
 

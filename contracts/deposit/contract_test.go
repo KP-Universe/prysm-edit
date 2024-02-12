@@ -5,13 +5,13 @@ import (
 	"encoding/binary"
 	"testing"
 
-	"github.com/ethereum/go-ethereum"
-	"github.com/ethereum/go-ethereum/common"
-	depositcontract "github.com/prysmaticlabs/prysm/v4/contracts/deposit"
-	"github.com/prysmaticlabs/prysm/v4/contracts/deposit/mock"
-	"github.com/prysmaticlabs/prysm/v4/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/go-kpu"
+	"github.com/KP-Universe/go-kpu/common"
+	depositcontract "github.com/KP-Universe/prysm/v4/contracts/deposit"
+	"github.com/KP-Universe/prysm/v4/contracts/deposit/mock"
+	"github.com/KP-Universe/prysm/v4/runtime/interop"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func TestSetupRegistrationContract_OK(t *testing.T) {

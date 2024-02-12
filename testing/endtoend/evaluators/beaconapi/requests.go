@@ -5,13 +5,13 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/config"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/debug"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/node"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/validator"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/beacon"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/config"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/debug"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/node"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/validator"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
 )
 
 var requests = map[string]endpoint{

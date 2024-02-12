@@ -4,14 +4,14 @@ import (
 	"context"
 	"testing"
 
-	testDB "github.com/prysmaticlabs/prysm/v4/beacon-chain/db/testing"
-	doublylinkedtree "github.com/prysmaticlabs/prysm/v4/beacon-chain/forkchoice/doubly-linked-tree"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	testDB "github.com/KP-Universe/prysm/v4/beacon-chain/db/testing"
+	doublylinkedtree "github.com/KP-Universe/prysm/v4/beacon-chain/forkchoice/doubly-linked-tree"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state/stategen"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 )
 
 func TestHeadSlot_DataRace(t *testing.T) {

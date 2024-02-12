@@ -2,9 +2,9 @@ package payloadattribute
 
 import (
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
+	"github.com/KP-Universe/prysm/v4/runtime/version"
 )
 
 var (

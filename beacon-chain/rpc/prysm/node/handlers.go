@@ -9,11 +9,11 @@ import (
 	corenet "github.com/libp2p/go-libp2p/core/network"
 	"github.com/libp2p/go-libp2p/core/peer"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/peers/peerdata"
-	"github.com/prysmaticlabs/prysm/v4/network/httputil"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p/peers"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p/peers/peerdata"
+	"github.com/KP-Universe/prysm/v4/network/httputil"
+	eth "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

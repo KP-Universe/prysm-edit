@@ -3,11 +3,11 @@ package state_native
 import (
 	"fmt"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/state-native/types"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stateutil"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state/state-native/types"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state/stateutil"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/runtime/version"
 )
 
 // RotateAttestations sets the previous epoch attestations to the current epoch attestations and

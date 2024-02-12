@@ -8,12 +8,12 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
-	"github.com/prysmaticlabs/prysm/v4/validator/keymanager"
-	"github.com/prysmaticlabs/prysm/v4/validator/slashing-protection-history/format"
-	mocks "github.com/prysmaticlabs/prysm/v4/validator/testing"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/validator/accounts"
+	"github.com/KP-Universe/prysm/v4/validator/db/kv"
+	"github.com/KP-Universe/prysm/v4/validator/keymanager"
+	"github.com/KP-Universe/prysm/v4/validator/slashing-protection-history/format"
+	mocks "github.com/KP-Universe/prysm/v4/validator/testing"
 )
 
 func TestImportSlashingProtection_Preconditions(t *testing.T) {

@@ -6,11 +6,11 @@ import (
 	"strconv"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
-	"github.com/prysmaticlabs/prysm/v4/network/httputil"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/beacon"
+	"github.com/KP-Universe/prysm/v4/network/httputil"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 )
 
 type GenesisProvider interface {

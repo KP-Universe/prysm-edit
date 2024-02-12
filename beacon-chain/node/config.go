@@ -3,13 +3,13 @@ package node
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/KP-Universe/go-kpu/common"
 	fastssz "github.com/prysmaticlabs/fastssz"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	tracing2 "github.com/prysmaticlabs/prysm/v4/monitoring/tracing"
+	"github.com/KP-Universe/prysm/v4/cmd"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/flags"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	tracing2 "github.com/KP-Universe/prysm/v4/monitoring/tracing"
 	"github.com/urfave/cli/v2"
 )
 

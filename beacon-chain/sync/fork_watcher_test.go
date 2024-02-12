@@ -5,16 +5,16 @@ import (
 	"testing"
 	"time"
 
-	"github.com/prysmaticlabs/prysm/v4/async/abool"
-	mockChain "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	p2ptest "github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p/testing"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
-	mockSync "github.com/prysmaticlabs/prysm/v4/beacon-chain/sync/initial-sync/testing"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/network/forks"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/async/abool"
+	mockChain "github.com/KP-Universe/prysm/v4/beacon-chain/blockchain/testing"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p"
+	p2ptest "github.com/KP-Universe/prysm/v4/beacon-chain/p2p/testing"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/startup"
+	mockSync "github.com/KP-Universe/prysm/v4/beacon-chain/sync/initial-sync/testing"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/network/forks"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
 )
 
 func TestService_CheckForNextEpochFork(t *testing.T) {

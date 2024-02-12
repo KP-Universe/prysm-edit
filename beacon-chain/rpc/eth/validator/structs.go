@@ -3,7 +3,7 @@ package validator
 import (
 	"encoding/json"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/shared"
 )
 
 type AggregateAttestationResponse struct {

@@ -9,7 +9,7 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	beacon "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
+	beacon "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/beacon"
 )
 
 // MockGenesisProvider is a mock of GenesisProvider interface.

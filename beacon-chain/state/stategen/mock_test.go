@@ -7,17 +7,17 @@ import (
 	"testing"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/blocks"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/helpers"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/core/transition"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	consensusblocks "github.com/prysmaticlabs/prysm/v4/consensus-types/blocks"
-	blocktest "github.com/prysmaticlabs/prysm/v4/consensus-types/blocks/testing"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/blocks"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/helpers"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/core/transition"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/db"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	consensusblocks "github.com/KP-Universe/prysm/v4/consensus-types/blocks"
+	blocktest "github.com/KP-Universe/prysm/v4/consensus-types/blocks/testing"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/testing/util"
 )
 
 func TestMockHistoryStates(t *testing.T) {

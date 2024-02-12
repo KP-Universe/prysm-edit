@@ -4,7 +4,7 @@ import (
 	"io"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/flags"
 	"github.com/sirupsen/logrus"
 )
 

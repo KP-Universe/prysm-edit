@@ -10,8 +10,8 @@ import (
 	reflect "reflect"
 	sync "sync"
 
-	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
-	_ "github.com/prysmaticlabs/prysm/v4/proto/eth/ext"
+	github_com_prysmaticlabs_prysm_v4_consensus_types_primitives "github.com/KP-Universe/prysm/v4/consensus-types/primitives"
+	_ "github.com/KP-Universe/prysm/v4/proto/eth/ext"
 	protoreflect "google.golang.org/protobuf/reflect/protoreflect"
 	protoimpl "google.golang.org/protobuf/runtime/protoimpl"
 )
@@ -29,8 +29,8 @@ type HighestAttestation struct {
 	unknownFields protoimpl.UnknownFields
 
 	ValidatorIndex     uint64                                                             `protobuf:"varint,1,opt,name=validator_index,json=validatorIndex,proto3" json:"validator_index,omitempty"`
-	HighestSourceEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,2,opt,name=highest_source_epoch,json=highestSourceEpoch,proto3" json:"highest_source_epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
-	HighestTargetEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,3,opt,name=highest_target_epoch,json=highestTargetEpoch,proto3" json:"highest_target_epoch,omitempty" cast-type:"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives.Epoch"`
+	HighestSourceEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,2,opt,name=highest_source_epoch,json=highestSourceEpoch,proto3" json:"highest_source_epoch,omitempty" cast-type:"github.com/KP-Universe/prysm/v4/consensus-types/primitives.Epoch"`
+	HighestTargetEpoch github_com_prysmaticlabs_prysm_v4_consensus_types_primitives.Epoch `protobuf:"varint,3,opt,name=highest_target_epoch,json=highestTargetEpoch,proto3" json:"highest_target_epoch,omitempty" cast-type:"github.com/KP-Universe/prysm/v4/consensus-types/primitives.Epoch"`
 }
 
 func (x *HighestAttestation) Reset() {

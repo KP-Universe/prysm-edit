@@ -4,9 +4,9 @@
 package events
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	opfeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/operation"
-	statefeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/state"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/blockchain"
+	opfeed "github.com/KP-Universe/prysm/v4/beacon-chain/core/feed/operation"
+	statefeed "github.com/KP-Universe/prysm/v4/beacon-chain/core/feed/state"
 )
 
 // Server defines a server implementation of the gRPC events service,

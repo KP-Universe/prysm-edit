@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/ethereum/go-ethereum/p2p/discover"
-	"github.com/ethereum/go-ethereum/p2p/enode"
+	"github.com/KP-Universe/go-kpu/p2p/discover"
+	"github.com/KP-Universe/go-kpu/p2p/enode"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v4/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v4/network"
-	_ "github.com/prysmaticlabs/prysm/v4/runtime/maxprocs"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	ecdsaprysm "github.com/KP-Universe/prysm/v4/crypto/ecdsa"
+	"github.com/KP-Universe/prysm/v4/network"
+	_ "github.com/KP-Universe/prysm/v4/runtime/maxprocs"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 	"github.com/sirupsen/logrus"
 )
 

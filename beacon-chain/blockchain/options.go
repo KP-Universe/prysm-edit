@@ -1,22 +1,22 @@
 package blockchain
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/async/event"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	statefeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db/filesystem"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/forkchoice"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/attestations"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/blstoexec"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/slashings"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/operations/voluntaryexits"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/p2p"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/startup"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/prysm/v4/async/event"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/cache"
+	statefeed "github.com/KP-Universe/prysm/v4/beacon-chain/core/feed/state"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/db"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/db/filesystem"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/execution"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/forkchoice"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/operations/attestations"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/operations/blstoexec"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/operations/slashings"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/operations/voluntaryexits"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/p2p"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/startup"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state/stategen"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 )
 
 type Option func(s *Service) error

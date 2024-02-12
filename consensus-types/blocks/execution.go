@@ -6,13 +6,13 @@ import (
 	"math/big"
 
 	fastssz "github.com/prysmaticlabs/fastssz"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	consensus_types "github.com/prysmaticlabs/prysm/v4/consensus-types"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/encoding/bytesutil"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v4/math"
-	enginev1 "github.com/prysmaticlabs/prysm/v4/proto/engine/v1"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	consensus_types "github.com/KP-Universe/prysm/v4/consensus-types"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/encoding/bytesutil"
+	"github.com/KP-Universe/prysm/v4/encoding/ssz"
+	"github.com/KP-Universe/prysm/v4/math"
+	enginev1 "github.com/KP-Universe/prysm/v4/proto/engine/v1"
 	"google.golang.org/protobuf/proto"
 )
 

@@ -12,9 +12,9 @@ import (
 	"time"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
+	"github.com/KP-Universe/prysm/v4/testing/endtoend/helpers"
+	e2e "github.com/KP-Universe/prysm/v4/testing/endtoend/params"
+	"github.com/KP-Universe/prysm/v4/testing/endtoend/types"
 )
 
 var _ types.ComponentRunner = &TracingSink{}

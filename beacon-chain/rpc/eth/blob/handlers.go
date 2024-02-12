@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/core"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
-	field_params "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/network/httputil"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/core"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/shared"
+	field_params "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	"github.com/KP-Universe/prysm/v4/network/httputil"
+	eth "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 	"go.opencensus.io/trace"
 )
 

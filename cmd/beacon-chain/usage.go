@@ -5,14 +5,14 @@ import (
 	"io"
 	"sort"
 
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/storage"
-	backfill "github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/backfill/flags"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/checkpoint"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/genesis"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/runtime/debug"
+	"github.com/KP-Universe/prysm/v4/cmd"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/flags"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/storage"
+	backfill "github.com/KP-Universe/prysm/v4/cmd/beacon-chain/sync/backfill/flags"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/sync/checkpoint"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/sync/genesis"
+	"github.com/KP-Universe/prysm/v4/config/features"
+	"github.com/KP-Universe/prysm/v4/runtime/debug"
 	"github.com/urfave/cli/v2"
 )
 

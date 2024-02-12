@@ -8,8 +8,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	shared "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/shared"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	shared "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/shared"
+	eth "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 )
 
 // MockBeaconBlockConverter is a mock of BeaconBlockConverter interface.

@@ -1,14 +1,14 @@
 package execution
 
 import (
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/cache"
-	statefeed "github.com/prysmaticlabs/prysm/v4/beacon-chain/core/feed/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/db"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state/stategen"
-	"github.com/prysmaticlabs/prysm/v4/network"
-	"github.com/prysmaticlabs/prysm/v4/network/authorization"
+	"github.com/KP-Universe/go-kpu/common"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/cache"
+	statefeed "github.com/KP-Universe/prysm/v4/beacon-chain/core/feed/state"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/db"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state/stategen"
+	"github.com/KP-Universe/prysm/v4/network"
+	"github.com/KP-Universe/prysm/v4/network/authorization"
 )
 
 type Option func(s *Service) error

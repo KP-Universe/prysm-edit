@@ -14,17 +14,17 @@ import (
 
 	"github.com/bazelbuild/rules_go/go/tools/bazel"
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	cmdshared "github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/flags"
-	"github.com/prysmaticlabs/prysm/v4/cmd/beacon-chain/sync/genesis"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/runtime/interop"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/helpers"
-	e2e "github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	cmdshared "github.com/KP-Universe/prysm/v4/cmd"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/flags"
+	"github.com/KP-Universe/prysm/v4/cmd/beacon-chain/sync/genesis"
+	"github.com/KP-Universe/prysm/v4/config/features"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/io/file"
+	"github.com/KP-Universe/prysm/v4/runtime/interop"
+	"github.com/KP-Universe/prysm/v4/testing/endtoend/helpers"
+	e2e "github.com/KP-Universe/prysm/v4/testing/endtoend/params"
+	e2etypes "github.com/KP-Universe/prysm/v4/testing/endtoend/types"
 )
 
 var _ e2etypes.ComponentRunner = (*BeaconNode)(nil)

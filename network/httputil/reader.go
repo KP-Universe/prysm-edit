@@ -6,7 +6,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/prysmaticlabs/prysm/v4/api"
+	"github.com/KP-Universe/prysm/v4/api"
 )
 
 // match a number with optional decimals

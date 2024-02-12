@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	"github.com/prysmaticlabs/prysm/v4/validator/accounts/userprompt"
-	"github.com/prysmaticlabs/prysm/v4/validator/db/kv"
-	slashingprotection "github.com/prysmaticlabs/prysm/v4/validator/slashing-protection-history"
+	"github.com/KP-Universe/prysm/v4/cmd"
+	"github.com/KP-Universe/prysm/v4/cmd/validator/flags"
+	"github.com/KP-Universe/prysm/v4/io/file"
+	"github.com/KP-Universe/prysm/v4/validator/accounts/userprompt"
+	"github.com/KP-Universe/prysm/v4/validator/db/kv"
+	slashingprotection "github.com/KP-Universe/prysm/v4/validator/slashing-protection-history"
 	"github.com/urfave/cli/v2"
 )
 

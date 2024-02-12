@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/ethereum/go-ethereum/common"
+	"github.com/KP-Universe/go-kpu/common"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/client_golang/prometheus/promauto"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/execution/types"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/execution/types"
+	"github.com/KP-Universe/prysm/v4/config/params"
 	"k8s.io/client-go/tools/cache"
 )
 

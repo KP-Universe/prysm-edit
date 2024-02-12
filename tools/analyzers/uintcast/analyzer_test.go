@@ -3,8 +3,8 @@ package uintcast_test
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/build/bazel"
-	"github.com/prysmaticlabs/prysm/v4/tools/analyzers/uintcast"
+	"github.com/KP-Universe/prysm/v4/build/bazel"
+	"github.com/KP-Universe/prysm/v4/tools/analyzers/uintcast"
 	"golang.org/x/tools/go/analysis/analysistest"
 )
 

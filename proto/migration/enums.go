@@ -2,8 +2,8 @@ package migration
 
 import (
 	"github.com/pkg/errors"
-	ethpb "github.com/prysmaticlabs/prysm/v4/proto/eth/v1"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
+	ethpb "github.com/KP-Universe/prysm/v4/proto/eth/v1"
+	eth "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
 )
 
 func V1Alpha1ConnectionStateToV1(connState eth.ConnectionState) ethpb.ConnectionState {

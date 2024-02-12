@@ -14,10 +14,10 @@ import (
 	"strings"
 	"time"
 
-	"github.com/ethereum/go-ethereum/common"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/ethereum/go-ethereum/params"
-	_ "github.com/prysmaticlabs/prysm/v4/runtime/maxprocs"
+	"github.com/KP-Universe/go-kpu/common"
+	"github.com/KP-Universe/go-kpu/ethclient"
+	"github.com/KP-Universe/go-kpu/params"
+	_ "github.com/KP-Universe/prysm/v4/runtime/maxprocs"
 	"github.com/sirupsen/logrus"
 )
 

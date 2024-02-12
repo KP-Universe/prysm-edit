@@ -9,8 +9,8 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api"
-	"github.com/prysmaticlabs/prysm/v4/network/httputil"
+	"github.com/KP-Universe/prysm/v4/api"
+	"github.com/KP-Universe/prysm/v4/network/httputil"
 )
 
 type JsonRestHandler interface {

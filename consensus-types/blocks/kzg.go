@@ -3,12 +3,12 @@ package blocks
 import (
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/gohashtree"
-	field_params "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/container/trie"
-	"github.com/prysmaticlabs/prysm/v4/encoding/ssz"
-	"github.com/prysmaticlabs/prysm/v4/runtime/version"
+	field_params "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/container/trie"
+	"github.com/KP-Universe/prysm/v4/encoding/ssz"
+	"github.com/KP-Universe/prysm/v4/runtime/version"
 )
 
 const (

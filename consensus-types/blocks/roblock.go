@@ -4,7 +4,7 @@ import (
 	"bytes"
 	"sort"
 
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
 )
 
 // ROBlock is a value that embeds a ReadOnlySignedBeaconBlock along with its block root ([32]byte).

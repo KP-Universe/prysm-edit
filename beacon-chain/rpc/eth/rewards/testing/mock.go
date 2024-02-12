@@ -3,10 +3,10 @@ package testing
 import (
 	"context"
 
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/rewards"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/state"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/interfaces"
-	"github.com/prysmaticlabs/prysm/v4/network/httputil"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/rewards"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/state"
+	"github.com/KP-Universe/prysm/v4/consensus-types/interfaces"
+	"github.com/KP-Universe/prysm/v4/network/httputil"
 )
 
 type MockBlockRewardFetcher struct {

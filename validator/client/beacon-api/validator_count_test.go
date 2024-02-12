@@ -6,12 +6,12 @@ import (
 	"testing"
 
 	"github.com/golang/mock/gomock"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/node"
-	validator2 "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/prysm/validator"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/validator"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/beacon-api/mock"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/iface"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/node"
+	validator2 "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/prysm/validator"
+	"github.com/KP-Universe/prysm/v4/consensus-types/validator"
+	"github.com/KP-Universe/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/validator/client/beacon-api/mock"
+	"github.com/KP-Universe/prysm/v4/validator/client/iface"
 )
 
 func TestGetValidatorCount(t *testing.T) {

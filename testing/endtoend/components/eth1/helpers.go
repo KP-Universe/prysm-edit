@@ -5,11 +5,11 @@ import (
 	"math/big"
 	"time"
 
-	"github.com/ethereum/go-ethereum/accounts/keystore"
-	"github.com/ethereum/go-ethereum/core/types"
-	"github.com/ethereum/go-ethereum/ethclient"
-	"github.com/prysmaticlabs/prysm/v4/testing/endtoend/params"
-	e2etypes "github.com/prysmaticlabs/prysm/v4/testing/endtoend/types"
+	"github.com/KP-Universe/go-kpu/accounts/keystore"
+	"github.com/KP-Universe/go-kpu/core/types"
+	"github.com/KP-Universe/go-kpu/ethclient"
+	"github.com/KP-Universe/prysm/v4/testing/endtoend/params"
+	e2etypes "github.com/KP-Universe/prysm/v4/testing/endtoend/types"
 )
 
 // NetworkId is the ID of the ETH1 chain.

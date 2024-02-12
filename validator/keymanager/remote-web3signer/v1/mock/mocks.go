@@ -3,13 +3,13 @@ package mock
 import (
 	"fmt"
 
-	"github.com/ethereum/go-ethereum/common/hexutil"
+	"github.com/KP-Universe/go-kpu/common/hexutil"
 	"github.com/prysmaticlabs/go-bitfield"
-	fieldparams "github.com/prysmaticlabs/prysm/v4/config/fieldparams"
-	eth "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1"
-	validatorpb "github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/validator-client"
-	"github.com/prysmaticlabs/prysm/v4/testing/util"
-	v1 "github.com/prysmaticlabs/prysm/v4/validator/keymanager/remote-web3signer/v1"
+	fieldparams "github.com/KP-Universe/prysm/v4/config/fieldparams"
+	eth "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1"
+	validatorpb "github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1/validator-client"
+	"github.com/KP-Universe/prysm/v4/testing/util"
+	v1 "github.com/KP-Universe/prysm/v4/validator/keymanager/remote-web3signer/v1"
 )
 
 /////////////////////////////////////////////////////////////////////////////////////////////////

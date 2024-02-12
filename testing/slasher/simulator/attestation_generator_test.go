@@ -4,9 +4,9 @@ import (
 	"context"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	"github.com/prysmaticlabs/prysm/v4/proto/prysm/v1alpha1/slashings"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	"github.com/KP-Universe/prysm/v4/proto/prysm/v1alpha1/slashings"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func TestGenerateAttestationsForSlot_Slashing(t *testing.T) {

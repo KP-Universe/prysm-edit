@@ -1,6 +1,6 @@
 package mock
 
-import "github.com/prysmaticlabs/prysm/v4/async/event"
+import "github.com/KP-Universe/prysm/v4/async/event"
 
 type MockStreamer struct {
 	logs [][]byte

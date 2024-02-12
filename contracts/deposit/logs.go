@@ -3,7 +3,7 @@ package deposit
 import (
 	"bytes"
 
-	"github.com/ethereum/go-ethereum/accounts/abi"
+	"github.com/KP-Universe/go-kpu/accounts/abi"
 	"github.com/pkg/errors"
 )
 

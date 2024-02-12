@@ -1,8 +1,8 @@
 package rewards
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/lookup"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/blockchain"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/lookup"
 )
 
 type Server struct {

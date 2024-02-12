@@ -8,18 +8,18 @@ import (
 	"path"
 	"testing"
 
-	gethCrypto "github.com/ethereum/go-ethereum/crypto"
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	gethCrypto "github.com/KP-Universe/go-kpu/crypto"
+	"github.com/KP-Universe/go-kpu/p2p/enode"
+	"github.com/KP-Universe/go-kpu/p2p/enr"
 	"github.com/libp2p/go-libp2p"
 	"github.com/libp2p/go-libp2p/core/crypto"
 	"github.com/libp2p/go-libp2p/core/protocol"
-	mock "github.com/prysmaticlabs/prysm/v4/beacon-chain/blockchain/testing"
-	"github.com/prysmaticlabs/prysm/v4/config/params"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v4/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v4/network"
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
-	"github.com/prysmaticlabs/prysm/v4/testing/require"
+	mock "github.com/KP-Universe/prysm/v4/beacon-chain/blockchain/testing"
+	"github.com/KP-Universe/prysm/v4/config/params"
+	ecdsaprysm "github.com/KP-Universe/prysm/v4/crypto/ecdsa"
+	"github.com/KP-Universe/prysm/v4/network"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/require"
 )
 
 func TestPrivateKeyLoading(t *testing.T) {

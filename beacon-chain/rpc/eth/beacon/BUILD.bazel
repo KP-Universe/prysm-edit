@@ -11,7 +11,7 @@ go_library(
         "server.go",
         "structs.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon",
+    importpath = "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/beacon",
     visibility = ["//visibility:public"],
     deps = [
         "//api:go_default_library",

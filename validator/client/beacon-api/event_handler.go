@@ -7,7 +7,7 @@ import (
 	"sync"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/api"
+	"github.com/KP-Universe/prysm/v4/api"
 )
 
 // Currently set to the first power of 2 bigger than the size of the `head` event

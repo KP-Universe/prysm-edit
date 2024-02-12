@@ -7,12 +7,12 @@ import (
 	"flag"
 	"net"
 
-	"github.com/ethereum/go-ethereum/p2p/enode"
-	"github.com/ethereum/go-ethereum/p2p/enr"
+	"github.com/KP-Universe/go-kpu/p2p/enode"
+	"github.com/KP-Universe/go-kpu/p2p/enr"
 	"github.com/libp2p/go-libp2p/core/crypto"
-	ecdsaprysm "github.com/prysmaticlabs/prysm/v4/crypto/ecdsa"
-	"github.com/prysmaticlabs/prysm/v4/io/file"
-	_ "github.com/prysmaticlabs/prysm/v4/runtime/maxprocs"
+	ecdsaprysm "github.com/KP-Universe/prysm/v4/crypto/ecdsa"
+	"github.com/KP-Universe/prysm/v4/io/file"
+	_ "github.com/KP-Universe/prysm/v4/runtime/maxprocs"
 	log "github.com/sirupsen/logrus"
 )
 

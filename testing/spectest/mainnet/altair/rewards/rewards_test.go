@@ -3,7 +3,7 @@ package rewards
 import (
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/spectest/shared/altair/rewards"
+	"github.com/KP-Universe/prysm/v4/testing/spectest/shared/altair/rewards"
 )
 
 func TestMainnet_Altair_Rewards(t *testing.T) {

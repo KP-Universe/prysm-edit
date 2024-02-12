@@ -8,8 +8,8 @@ import (
 	"strconv"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/beacon"
-	"github.com/prysmaticlabs/prysm/v4/consensus-types/primitives"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/beacon"
+	"github.com/KP-Universe/prysm/v4/consensus-types/primitives"
 )
 
 type StateValidatorsProvider interface {

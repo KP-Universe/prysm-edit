@@ -5,11 +5,11 @@ import (
 	"os"
 
 	"github.com/logrusorgru/aurora"
-	"github.com/prysmaticlabs/prysm/v4/cmd"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/accounts"
-	"github.com/prysmaticlabs/prysm/v4/cmd/validator/flags"
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	"github.com/prysmaticlabs/prysm/v4/runtime/tos"
+	"github.com/KP-Universe/prysm/v4/cmd"
+	"github.com/KP-Universe/prysm/v4/cmd/validator/accounts"
+	"github.com/KP-Universe/prysm/v4/cmd/validator/flags"
+	"github.com/KP-Universe/prysm/v4/config/features"
+	"github.com/KP-Universe/prysm/v4/runtime/tos"
 	log "github.com/sirupsen/logrus"
 	"github.com/urfave/cli/v2"
 )

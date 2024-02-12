@@ -1,7 +1,7 @@
 package bls
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/crypto/bls/common"
+	"github.com/KP-Universe/prysm/v4/crypto/bls/common"
 )
 
 // PublicKey represents a BLS public key.

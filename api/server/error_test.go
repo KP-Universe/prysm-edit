@@ -4,7 +4,7 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/prysmaticlabs/prysm/v4/testing/assert"
+	"github.com/KP-Universe/prysm/v4/testing/assert"
 )
 
 func TestDecodeError(t *testing.T) {

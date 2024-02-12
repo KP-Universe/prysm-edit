@@ -36,7 +36,7 @@ package main
 
 import (
 	"github.com/sirupsen/logrus"
-	prefixed "github.com/prysmaticlabs/prysm/runtime/logging/logrus-prefixed-formatter"
+	prefixed "github.com/KP-Universe/prysm/runtime/logging/logrus-prefixed-formatter"
 )
 
 var log = logrus.New()

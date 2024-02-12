@@ -5,8 +5,8 @@ import (
 
 	"github.com/pkg/errors"
 	"github.com/prysmaticlabs/gohashtree"
-	"github.com/prysmaticlabs/prysm/v4/container/trie"
-	"github.com/prysmaticlabs/prysm/v4/crypto/hash/htr"
+	"github.com/KP-Universe/prysm/v4/container/trie"
+	"github.com/KP-Universe/prysm/v4/crypto/hash/htr"
 )
 
 var errInvalidNilSlice = errors.New("invalid empty slice")

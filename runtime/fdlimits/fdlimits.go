@@ -1,7 +1,7 @@
 package fdlimits
 
 import (
-	"github.com/ethereum/go-ethereum/common/fdlimit"
+	"github.com/KP-Universe/go-kpu/common/fdlimit"
 	"github.com/sirupsen/logrus"
 )
 

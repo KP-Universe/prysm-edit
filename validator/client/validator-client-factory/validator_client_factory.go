@@ -1,11 +1,11 @@
 package validator_client_factory
 
 import (
-	"github.com/prysmaticlabs/prysm/v4/config/features"
-	beaconApi "github.com/prysmaticlabs/prysm/v4/validator/client/beacon-api"
-	grpcApi "github.com/prysmaticlabs/prysm/v4/validator/client/grpc-api"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/iface"
-	validatorHelpers "github.com/prysmaticlabs/prysm/v4/validator/helpers"
+	"github.com/KP-Universe/prysm/v4/config/features"
+	beaconApi "github.com/KP-Universe/prysm/v4/validator/client/beacon-api"
+	grpcApi "github.com/KP-Universe/prysm/v4/validator/client/grpc-api"
+	"github.com/KP-Universe/prysm/v4/validator/client/iface"
+	validatorHelpers "github.com/KP-Universe/prysm/v4/validator/helpers"
 )
 
 func NewValidatorClient(

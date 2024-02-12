@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/pkg/errors"
-	"github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/prysm/validator"
-	validator2 "github.com/prysmaticlabs/prysm/v4/consensus-types/validator"
-	"github.com/prysmaticlabs/prysm/v4/validator/client/iface"
+	"github.com/KP-Universe/prysm/v4/beacon-chain/rpc/prysm/validator"
+	validator2 "github.com/KP-Universe/prysm/v4/consensus-types/validator"
+	"github.com/KP-Universe/prysm/v4/validator/client/iface"
 )
 
 // NewPrysmBeaconChainClient returns implementation of iface.PrysmBeaconChainClient.

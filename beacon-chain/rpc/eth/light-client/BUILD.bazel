@@ -8,7 +8,7 @@ go_library(
         "server.go",
         "structs.go",
     ],
-    importpath = "github.com/prysmaticlabs/prysm/v4/beacon-chain/rpc/eth/light-client",
+    importpath = "github.com/KP-Universe/prysm/v4/beacon-chain/rpc/eth/light-client",
     visibility = ["//beacon-chain:__subpackages__"],
     deps = [
         "//beacon-chain/blockchain:go_default_library",

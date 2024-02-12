@@ -9,8 +9,8 @@ import (
 	reflect "reflect"
 
 	gomock "github.com/golang/mock/gomock"
-	validator "github.com/prysmaticlabs/prysm/v4/consensus-types/validator"
-	iface "github.com/prysmaticlabs/prysm/v4/validator/client/iface"
+	validator "github.com/KP-Universe/prysm/v4/consensus-types/validator"
+	iface "github.com/KP-Universe/prysm/v4/validator/client/iface"
 )
 
 // MockPrysmBeaconChainClient is a mock of PrysmBeaconChainClient interface.
